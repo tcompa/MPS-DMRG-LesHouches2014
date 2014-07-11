@@ -42,14 +42,6 @@ if __name__=='__main__':
     print("=============== START RUN ===============")
     print("\tSetting up MPS")
     
-    ############
-    # note (tc): the following block is not needed in principle, since one
-    # could directly use p['N'], but it turned out that in some cases it is
-    # safer to do it this way
-    nbr_sweeps=p['nbr_sweeps']
-    stopping_tolerance=p['stopping_tolerance']
-    ############
-
     ##  INITIALIZE WHOLE THING
     mat_M  = create_random_mps(p['N'], p['d'], p['D'])
     mat_M  = initial_right_normalization(mat_M)
