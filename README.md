@@ -3,7 +3,7 @@ MPS-DMRG-LesHouches2014
 
 Collaborative work on a simple python code for DMRG on the spin-1/2 Heisenberg chain.
 
-The original code has been written during a tutorial organized by Corinna Kollath, as part of the 4th Les Houches school in computational physics" (http://comp-phys-2014.sciencesconf.org).
+The original code has been written during a tutorial organized by Corinna Kollath, as part of the "4th Les Houches school in computational physics" (http://comp-phys-2014.sciencesconf.org).
 Credit is to all the participants, although I have been modifying the code to some extent, trying to debug (but possibly introducing even more bugs).
 An original version of the code can be found here: http://www.theory.uni-bonn.de/leshouches-code.
 
