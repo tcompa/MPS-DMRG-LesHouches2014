@@ -21,4 +21,4 @@ for sigma in range(d):
     tot += (Mlast_sigma * Mlast_sigma.H)
 mat_M[last_site] /= numpy.sqrt(tot)
 ```
-I am assuming that this is the correct way to obtain <psi|psi>=1, is it true?
+I am assuming that this is the correct way to obtain `<psi|psi>=1`, is it true?
